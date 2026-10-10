@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data and private user uploads (never commit raw dataset images)
+data/
+datasets/
+uploads/
+private_data/
+
+# Model checkpoints and experiment artifacts
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Logs / temporary files
+*.log
+tmp/
+temp/
+.gradio/
