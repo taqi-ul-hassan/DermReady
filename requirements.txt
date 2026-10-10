@@ -1,0 +1,13 @@
+# Provisional; verify versions in the target Colab/local environment before pinning.
+gradio
+pillow
+numpy
+pandas
+opencv-python-headless
+scikit-learn
+matplotlib
+torch
+torchvision
+timm
+pyyaml
+pytest
